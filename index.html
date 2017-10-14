@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Character Set -->
+	<meta charset="utf-8">
+	<!-- Media Queries -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <!-- Author -->
+    <link rel="author" href="Julie Nguyen">
+	<!-- Title -->
+	<title>Horoscope</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+				<div>
+					<div class="form-group">
+						<h1>Enter your horoscope sign</h1>
+					</div>
+					<div class="form-group">
+						<input id="info" class="form-control">
+					</div>
+					<div class="form-group">
+						<!-- runs the function line 66 main.js -->
+						<button type="button" onclick="horoscope()" class="btn btn-primary btn-lg">Find Sign</button>
+					</div>
+					<div class="horo">
+					<img src="https://i.pinimg.com/originals/ba/f4/b0/baf4b0910173ade693f3013a7c913c08.png" class="spinCustomInfinite">
+					</div>
+				</div>
+
+				<div>
+					<h1 id="yourSign"></h1>
+					<img id="icon" src="">
+					<p id="yourHoroscope"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
+
+
+

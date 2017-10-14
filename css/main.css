@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+	text-align: center;
+	background-image: url("http://static.tumblr.com/fmilhlk/tO2me9gta/background.jpg");
+	background-size: cover;
+	padding: 50px;
+}
+
+
+
+h1 {
+   color: #ffffff;
+
+}
+
+.horo img {
+	width: 75%;
+	padding-bottom: 10px;
+
+}
+
+.yoursign {
+	color: #ffffff;
+}
+
+p {
+	color: #ffffff;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+.spinCustomInfinite {
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+    animation-duration: 10s;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg,); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
